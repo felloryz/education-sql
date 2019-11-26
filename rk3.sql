@@ -24,4 +24,4 @@ INSERT INTO `goods` (`name`, `manufacture`, `description`, `count`) VALUES
 
 DELETE FROM `goods` WHERE `count` = '0';
 
-SELECT * FROM `goods` WHERE (`count` > '300' AND `count` < '1000') AND `name` tag LIKE 'к%';  
+SELECT * FROM `goods` WHERE (`count` > '300' AND `count` < '1000') AND `name` LIKE 'к%';  
